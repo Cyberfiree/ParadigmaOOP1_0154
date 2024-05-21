@@ -13,6 +13,13 @@ public:
 // membuat konstruktor yg akan membuat nilai awal ketika program di jalankan
 	mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) {
 	}
+
+	// membuat destruktor yang akan dipanggil saat objek dihapus
+	~mahasiswa() {
+		cout << "Id = " << id << endl;
+		cout << "Nama = " << nama << endl;
+		cout << "Nilai = " << nilai << endl;
+	}
 };
 int main()
 {
