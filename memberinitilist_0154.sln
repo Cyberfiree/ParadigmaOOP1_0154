@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memberinitilist_0154", "mem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "komposisi", "komposisi\komposisi.vcxproj", "{63B24BF7-2EBD-4181-B459-42AFB0DE3262}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aggregasi", "aggregasi\aggregasi.vcxproj", "{9F897899-4A31-4479-AEC8-54D05338E204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{63B24BF7-2EBD-4181-B459-42AFB0DE3262}.Release|x64.Build.0 = Release|x64
 		{63B24BF7-2EBD-4181-B459-42AFB0DE3262}.Release|x86.ActiveCfg = Release|Win32
 		{63B24BF7-2EBD-4181-B459-42AFB0DE3262}.Release|x86.Build.0 = Release|Win32
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Debug|x64.ActiveCfg = Debug|x64
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Debug|x64.Build.0 = Debug|x64
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Debug|x86.Build.0 = Debug|Win32
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Release|x64.ActiveCfg = Release|x64
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Release|x64.Build.0 = Release|x64
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Release|x86.ActiveCfg = Release|Win32
+		{9F897899-4A31-4479-AEC8-54D05338E204}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
