@@ -23,4 +23,11 @@ int main()
 	// Mencetak nama-nama anak untuk setiap ibu
 	varIbu->cetakAnak(); //tidak memiliki parameter makanya ga ada varanak
 	varIbu2->cetakAnak();
+
+	// Menghapus objek yang dialokasikan secara dinamis dari memori
+	delete varIbu;
+	delete varIbu2;
+	delete varAnak1;
+	delete varAnak2;
+	delete varAnak3;
 }
