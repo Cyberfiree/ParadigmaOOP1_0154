@@ -13,4 +13,10 @@ int main()
 	anak* varAnak1 = new anak("tono");
 	anak* varAnak2 = new anak("rini");
 	anak* varAnak3 = new anak("dewi");
+
+	// Menambahkan anak-anak ke dalam daftar ibu
+	varIbu->tambahAnak(varAnak1); //memiliki parameter makanya dia memakai varanak atau memanggil argument yg diisi oleh data anak
+	varIbu->tambahAnak(varAnak2);
+	varIbu2->tambahAnak(varAnak3);
+	varIbu2->tambahAnak(varAnak1);
 }
