@@ -19,4 +19,8 @@ int main()
 	varIbu->tambahAnak(varAnak2);
 	varIbu2->tambahAnak(varAnak3);
 	varIbu2->tambahAnak(varAnak1);
+
+	// Mencetak nama-nama anak untuk setiap ibu
+	varIbu->cetakAnak(); //tidak memiliki parameter makanya ga ada varanak
+	varIbu2->cetakAnak();
 }
