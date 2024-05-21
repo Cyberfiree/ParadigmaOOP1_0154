@@ -16,5 +16,7 @@ public:
 	~ibu() {
 		cout << "Ibu \"" << nama << "\" tidak ada\n";
 	};
+	void tambahAnak(anak*);     //  untuk menambahkan anak ke dalam daftar anak ibu
+	void cetakAnak();			    //  untuk mencetak daftar anak ibu
 };
 #endif
